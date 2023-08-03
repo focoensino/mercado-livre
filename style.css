@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    height: 400px;
+    width: 100vw;
+}
+h1{
+    font-size: 1.1rem;
+    color: #4d4c4c;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+header{
+    background-color: #fff059;
+    padding: 1rem 10rem 7rem 10rem;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+}
+ .contact{
+    font-size: 0.8rem;
+}
+.box-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dbcaca;
+    height: 20rem;
+    width: 20rem;
+    background-color: #fff;
+    border-radius: 0.25rem 0.25rem 0rem 0rem;
+    margin-top: -5.3rem;
+    padding:4rem 3.2rem 1rem 3.2rem;
+}
+
+.footer-box-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dbcaca;
+    border-top: 0;
+    height: 2rem;
+    width: 20rem;
+    background-color: #fff;
+    border-radius:0rem 0rem 0.25rem 0.25rem;
+    padding:1rem 3.2rem 2rem 3.2rem;
+    
+}
+
+.footer-box-form:hover{
+    background-color: #e6e6e6;
+}
+
+
+.help{
+    font-size: 0.7rem;
+    color: #4d4c4c;;
+}
+input{
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 0;
+    border: 1px solid #c7c6c6;
+}
+input[type=text]:focus{
+    border: 0;
+    border: 1px solid #3483fa;
+}
+button{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem;
+
+    border: 0;
+    background-color: #3483fa;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0.25rem;
+}
+button:hover{
+    background-color: #2468c8;
+    transition: 0.5s;
+}
+
+
+.create-account:hover{
+    background-color: #d2eaf0;
+    border-radius: 0.25rem;
+    transition: 0.8s;
+}
+
+   
+
+.create-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem; 
+    margin-top: 0.5rem;
+   
+    
+}
+
+
+
+.color-blue{
+    font-size: 0.8rem;
+    color:#3483fa;
+    font-weight: 600;
+    
+}
+.color-blue a{
+    color:#3483fa;
+    width: 100%;
+    height: 2.5rem; 
+
+}
+.recaptcha p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    font-size: 0.5rem;
+    color: #4d4c4c;
+   
+}
+.recaptcha .color-blue{
+    font-size: 0.5rem;
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 0.6rem; 
+     padding: 2rem;
+   
+}
+.color-gray{
+    margin: 0.2rem;
+    color: #4d4c4c;
+}
+.color-gray-site{
+    color: #cfcccc;
+}
